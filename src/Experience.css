@@ -1,0 +1,58 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.item-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text-muted {
+    color: grey;
+}
+
+.header {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.logo:hover {
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

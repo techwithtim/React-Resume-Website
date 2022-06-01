@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+hr {
+  border: 5px solid black;
+  margin: 0px;
+  padding: 0px;
+}
